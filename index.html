@@ -1,0 +1,271 @@
+<!doctype html>
+<!-- SVT Clean home: the Damora Scroll Film (references/web/scroll-film.md). Clip 1 is the hero (messy office to clean),
+     each data-tr chapter plays the next clip as it rises: 2 office to kitchen (squeegee wipe), 3 kitchen to new build
+     (steam), 4 new build to clinic (dust sheet), 5 clinic to the lobby with the logo (foam wipe). Prices are filled from
+     data/rates.json by svt.js. Lines marked data-claim="pending" wait on Jay's OK (tools/claims_check.py). -->
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SVT Clean | Commercial Cleaning in Toronto and the GTA</title>
+<meta name="description" content="Commercial cleaning for offices, post-construction, commercial kitchens and clinics in Toronto and the GTA. See a real price range online in under a minute.">
+<meta name="theme-color" content="#0b1220">
+<link rel="canonical" href="https://svtclean.damoradigital.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SVT Clean">
+<meta property="og:title" content="SVT Clean | Commercial Cleaning in Toronto and the GTA">
+<meta property="og:description" content="Offices, post-construction, commercial kitchens and clinics. See a real price range online in under a minute.">
+<meta property="og:url" content="https://svtclean.damoradigital.com/">
+<meta property="og:image" content="https://svtclean.damoradigital.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://svtclean.damoradigital.com/og-image.jpg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://svtclean.damoradigital.com/#business","name":"SVT Clean","description":"Commercial cleaning for offices, post-construction, commercial kitchens and clinics in Toronto and the GTA.","url":"https://svtclean.damoradigital.com/","logo":"https://svtclean.damoradigital.com/img/logo-square-512.png","image":"https://svtclean.damoradigital.com/og-image.jpg","areaServed":[{"@type":"City","name":"Toronto"},{"@type":"AdministrativeArea","name":"Greater Toronto Area"}],"knowsAbout":["Office cleaning","Post-construction cleaning","Commercial kitchen cleaning","Medical office cleaning"]}</script>
+<link rel="preload" as="image" fetchpriority="high" href="film/v2/d/f0001.webp" media="(min-width: 761px) and (min-aspect-ratio: 1/1)">
+<link rel="preload" as="image" fetchpriority="high" href="film/v2/m/f0001.webp" media="(max-width: 760px), (max-aspect-ratio: 1/1)">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-latin.woff2" crossorigin>
+<link rel="stylesheet" href="film.css">
+<script>try{var t=localStorage.getItem('sf-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body class="filmed">
+
+<div class="film" data-film data-src="film/v2/{set}/f{n}.webp" data-n="312" data-clips="0-119,120-167,168-215,216-263,264-311">
+  <picture>
+    <source media="(max-width: 760px), (max-aspect-ratio: 1/1)" srcset="film/v2/m/f0001.webp">
+    <img class="poster" src="film/v2/d/f0001.webp" alt="An open-plan office at night above the Toronto skyline and the CN Tower, desks covered in cups, papers and takeout. As you scroll it becomes spotless, then moves through a restaurant kitchen, a new build, a clinic and a lobby with the SVT Clean sign." fetchpriority="high">
+  </picture>
+  <canvas aria-hidden="true"></canvas>
+  <div class="shade" aria-hidden="true"></div>
+</div>
+
+<!-- @header (tools/build_pages.py) -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="SVT Clean, home"><img class="lg-dark" src="brand/svt-clean-header-on-dark.svg" alt="SVT Clean" width="194" height="34"><img class="lg-light" src="brand/svt-clean-header.svg" alt="" aria-hidden="true" width="194" height="34"></a>
+    <nav class="nav" aria-label="Main">
+      <details><summary>Services</summary><div class="menu"><a href="office-cleaning.html">Office cleaning<small>Recurring cleaning, any size</small></a><a href="post-construction-cleaning.html">Post-construction<small>Rough, final and touch-up</small></a><a href="commercial-kitchen-cleaning.html">Commercial kitchens<small>Restaurant deep cleans</small></a><a href="clinic-cleaning.html">Clinics and medical offices<small>Medical and dental</small></a></div></details>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="btn btn-accent btn-top" href="pricing.html">Get a price</a>
+    <button class="theme" type="button" aria-label="Switch light or dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<div class="mnav" id="mnav" hidden>
+  <div class="mhead"><img class="lg-dark" src="brand/svt-clean-header-on-dark.svg" alt="SVT Clean" width="183" height="32"><img class="lg-light" src="brand/svt-clean-header.svg" alt="" aria-hidden="true" width="183" height="32"><button class="menu-btn" style="display:grid" type="button" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <a class="ml" href="./">Home</a><a class="ml" href="office-cleaning.html">Office cleaning</a><a class="ml" href="post-construction-cleaning.html">Post-construction</a><a class="ml" href="commercial-kitchen-cleaning.html">Commercial kitchens</a><a class="ml" href="clinic-cleaning.html">Clinics and medical offices</a>
+  <a class="ml" href="pricing.html">Pricing calculator</a>
+  <a class="ml" href="about.html">About</a>
+  <div class="ctas"><a class="btn btn-accent" href="pricing.html">Get a price</a><a class="btn btn-line" href="quote.html">Book a walkthrough</a></div>
+</div>
+<!-- /header -->
+
+<main>
+  <section class="hero" data-film-hero data-payoff-scope aria-label="Commercial cleaning in Toronto">
+    <div class="stage" data-scroll-hero>
+      <div class="copy copy-a" data-film-out>
+        <span class="eyebrow">Commercial cleaning · Toronto and the GTA</span>
+        <h1>Every office ends the day <em>like this.</em></h1>
+        <p>Commercial cleaning for offices, kitchens, new builds and clinics across Toronto and the GTA.</p>
+        <div class="ctas"><a class="btn btn-accent" href="pricing.html">Price my space</a><a class="btn btn-line" href="quote.html">Book a walkthrough</a></div>
+        <small class="illus">The film is an illustration.</small>
+      </div>
+      <div class="copy copy-b" data-film-in data-in-at="0.7" data-payoff="" data-payoff-class="in" data-payoff-name="hero payoff">
+        <h2>Yours starts it <em>like this.</em></h2>
+        <p>Clear desks, clean glass and a floor you can see the city in.</p>
+        <small class="illus">The film is an illustration.</small>
+      </div>
+      <div class="meter" aria-hidden="true"><i data-film-meter></i></div>
+    </div>
+  </section>
+
+  <!-- HOLD 1 over the clean office: the four services -->
+  <section class="hold" id="services" aria-label="Services"><div class="wrap"><div class="plate plate-bleed">
+    <div class="plate-head reveal">
+      <div><span class="eyebrow">What we clean</span><h2 class="h2">Four kinds of space. <em>One standard.</em></h2></div>
+      <p class="lede">Pick yours to see what's included and what it costs.</p>
+    </div>
+    <div class="svc-grid">
+      <a class="svc" href="office-cleaning.html"><img src="img/card-office.webp" alt="A clean open-plan office at night with the Toronto skyline" width="1200" height="750" loading="lazy"><div class="in"><span class="n">01</span><h3 class="h3">Offices</h3><p>Recurring cleaning for offices of every size: desks, floors, washrooms and kitchenettes.</p><span class="go">Office cleaning</span></div></a>
+      <a class="svc" href="post-construction-cleaning.html"><img src="img/card-post-construction.webp" alt="A newly built retail unit with polished concrete and a floor scrubber" width="1200" height="750" loading="lazy"><div class="in"><span class="n">02</span><h3 class="h3">Post-construction</h3><p>Rough, final and touch-up cleans so the keys go over on time.</p><span class="go">Post-construction</span></div></a>
+      <a class="svc" href="commercial-kitchen-cleaning.html"><img src="img/card-kitchen.webp" alt="A stainless steel restaurant kitchen after a deep clean" width="1200" height="750" loading="lazy"><div class="in"><span class="n">03</span><h3 class="h3">Commercial kitchens</h3><p>Deep cleans for restaurant kitchens, <span data-claim="pending">done after close</span>.</p><span class="go">Kitchen cleaning</span></div></a>
+      <a class="svc" href="clinic-cleaning.html"><img src="img/card-clinics.webp" alt="A spotless dental clinic reception and exam room" width="1200" height="750" loading="lazy"><div class="in"><span class="n">04</span><h3 class="h3">Clinics</h3><p>Medical and dental offices, ready before the first patient.</p><span class="go">Clinic cleaning</span></div></a>
+    </div>
+  </div></div></section>
+
+  <!-- CHAPTER 2: the squeegee wipe opens on the kitchen -->
+  <section aria-label="Commercial kitchens">
+    <div class="film-chap" data-tr="2">
+      <div class="wrap"><div class="fc" id="kitchens">
+        <span class="eyebrow">Commercial kitchens</span>
+        <h2 class="h2">Steel that <em>shines</em> at opening.</h2>
+        <p class="lede">Deep cleans for restaurant kitchens: floors, walls, drains and the whole line, in front and behind.</p>
+      </div></div>
+    </div>
+    <div class="hold"><div class="wrap"><div class="plate plate-bleed">
+      <div class="cols">
+        <div class="reveal">
+          <h3 class="h3">What a kitchen deep clean covers</h3>
+          <ul class="check" style="margin-top:18px">
+            <li><b>Floors and drains</b> degreased, tile and grout scrubbed</li>
+            <li><b>Under and behind the line</b>: equipment pulled where it moves</li>
+            <li><b>Walls, shelving and prep tables</b> washed down</li>
+            <li><b>Equipment outsides</b>: ranges, fryers, fridges, the dish machine</li>
+            <li><b>Hood filters</b> washed</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price-line" style="margin-top:0;border-top:0;padding-top:0"><span>Typical deep clean, full cook line</span><b data-rate="kitchen:medium">See the calculator</b><span>plus HST</span></div>
+          <p class="note"><b>Hoods and ducts:</b> we don't clean exhaust hoods or ducts on the inside. That job needs a certified hood cleaner. We wash the filters and can point you to one.</p>
+          <p style="margin:20px 0 0"><a class="textlink" href="commercial-kitchen-cleaning.html">Kitchen cleaning in detail</a></p>
+        </div>
+      </div>
+    </div></div></div>
+  </section>
+
+  <!-- CHAPTER 3: dish-machine steam clears onto the new build -->
+  <section aria-label="Post-construction cleaning">
+    <div class="film-chap" data-tr="3">
+      <div class="wrap"><div class="fc" id="post-construction">
+        <span class="eyebrow">Post-construction</span>
+        <h2 class="h2">From drywall dust to <em>handover.</em></h2>
+        <p class="lede">New builds and renovations, cleaned in phases on the contractor's schedule.</p>
+      </div></div>
+    </div>
+    <div class="hold"><div class="wrap"><div class="plate plate-bleed">
+      <div class="phases">
+        <div class="phase reveal"><span class="tag">Rough</span><h3 class="h3">After drywall</h3><p>Debris and bulk dust out, floors swept, so the trades can finish clean.</p><div class="price" data-rate="post_construction:rough">See the calculator</div></div>
+        <div class="phase reveal"><span class="tag">Final</span><h3 class="h3">The detail clean</h3><p>Every ledge, sill, frame and fixture. Windows inside, floors washed.</p><div class="price" data-rate="post_construction:final">See the calculator</div></div>
+        <div class="phase reveal"><span class="tag">Touch-up</span><h3 class="h3">Before the keys</h3><p>A last pass for fingerprints and dust, right before handover or move-in.</p><div class="price" data-rate="post_construction:touchup">See the calculator</div></div>
+      </div>
+      <p style="margin:22px 0 0"><a class="textlink" href="post-construction-cleaning.html">Post-construction cleaning in detail</a></p>
+    </div></div></div>
+  </section>
+
+  <!-- CHAPTER 4: the dust sheet pulls across onto the clinic -->
+  <section aria-label="Clinic cleaning">
+    <div class="film-chap" data-tr="4">
+      <div class="wrap"><div class="fc" id="clinics">
+        <span class="eyebrow">Clinics and medical offices</span>
+        <h2 class="h2">Ready before the <em>first patient.</em></h2>
+        <p class="lede">Waiting rooms, reception and exam rooms, with touch points disinfected every visit.</p>
+      </div></div>
+    </div>
+    <div class="hold"><div class="wrap"><div class="plate plate-bleed">
+      <div class="plate-head reveal">
+        <div><span class="eyebrow">How it works</span><h2 class="h2">Four steps. <em>No guesswork.</em></h2></div>
+        <p class="lede">A 2,000 sq ft clinic cleaned 5 nights a week usually runs <b data-quote='{"service":"office","type":"medical","sqft":2000,"visits":5,"washrooms":2,"kitchenettes":1}'>see the calculator</b>.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Price it online</h3><p>Get a real range in under a minute. No call needed.</p></li>
+        <li><h3>Walkthrough</h3><p data-claim="pending">We see the space and fix your exact price in 15 minutes.</p></li>
+        <li><h3>First clean</h3><p>We start on the date you pick, <span data-claim="pending">after hours</span>.</p></li>
+        <li><h3>Same list, every visit</h3><p data-claim="pending">Every clean is checked against your list, with a photo report after.</p></li>
+      </ol>
+    </div></div></div>
+  </section>
+
+  <!-- CHAPTER 5: the foam wipe arrives in the lobby at the SVT Clean sign -->
+  <section aria-label="Pricing">
+    <div class="film-chap" data-tr="5">
+      <div class="wrap"><div class="fc" id="pricing">
+        <span class="eyebrow">Pricing</span>
+        <h2 class="h2">See your price <em>before</em> you call.</h2>
+        <p class="lede">Most commercial cleaners say call for a quote. Move the slider and see a real range.</p>
+      </div></div>
+    </div>
+    <div class="hold"><div class="wrap"><div class="plate plate-bleed">
+      <div class="calc calc-mini" data-calc="mini">
+        <div>
+          <div class="q">
+            <label class="lbl" for="m-sqft">Size of your office <span class="hint">Square feet you want cleaned</span></label>
+            <div class="sizerow">
+              <div class="numbox"><input id="m-sqft" name="sqft" type="number" inputmode="numeric" min="200" max="200000" step="50" value="5000"><span>sq ft</span></div>
+              <input type="range" data-range="sqft" min="500" max="30000" step="100" value="5000" aria-label="Size slider">
+            </div>
+          </div>
+          <fieldset class="q">
+            <legend>Visits a week</legend>
+            <div class="chips">
+              <label><input type="radio" name="visits" value="1"><span>1</span></label>
+              <label><input type="radio" name="visits" value="2"><span>2</span></label>
+              <label><input type="radio" name="visits" value="3" checked><span>3</span></label>
+              <label><input type="radio" name="visits" value="5"><span>5</span></label>
+            </div>
+          </fieldset>
+          <p class="small" style="margin:0">Clinic, kitchen or new build? The <a class="textlink" href="pricing.html">full calculator</a> covers every space.</p>
+        </div>
+        <aside class="result">
+          <span class="eyebrow">Typical for offices like yours</span>
+          <div class="big" data-out="big" aria-live="polite">Working it out</div>
+          <div class="per" data-out="label"></div>
+          <div class="per" data-out="per"></div>
+          <p class="typ">A range, not a quote. <span data-claim="pending">A free 15-minute walkthrough</span> fixes your exact price.</p>
+          <a class="btn btn-accent" href="#quote">Lock my exact price</a>
+        </aside>
+      </div>
+    </div></div></div>
+    <div class="hold" id="quote"><div class="wrap"><div class="plate plate-bleed">
+      <div class="plate-head">
+        <div><span class="eyebrow" data-claim="pending">Free walkthrough</span><h2 class="h2">Lock your <em>exact price.</em></h2></div>
+        <p class="lede">Tell us about the space. We set a time to see it and send you one fixed monthly price.</p>
+      </div>
+      <form class="form" id="walkthrough-home" data-lead-form data-kind="walkthrough" data-required="name,company,email,phone,address" novalidate>
+        <div class="attach" hidden><b>Your estimate is attached:</b> <span data-attach></span></div>
+        <div class="field"><label for="h-name">Your name</label><input id="h-name" name="name" autocomplete="name" required><span class="err"></span></div>
+        <div class="field"><label for="h-company">Business name</label><input id="h-company" name="company" autocomplete="organization" required><span class="err"></span></div>
+        <div class="field"><label for="h-email">Work email</label><input id="h-email" name="email" type="email" autocomplete="email" inputmode="email" required><span class="err"></span></div>
+        <div class="field"><label for="h-phone">Phone</label><input id="h-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="416-555-0123" required><span class="err"></span></div>
+        <div class="field full"><label for="h-address">Address of the space <i>(street and city)</i></label><input id="h-address" name="address" autocomplete="street-address" required><span class="err"></span></div>
+        <div class="field"><label for="h-service">What needs cleaning?</label><select id="h-service" name="service"><option value="office">An office</option><option value="post_construction">A new build or renovation</option><option value="kitchen">A commercial kitchen</option><option value="clinic">A clinic or medical office</option><option value="other">Something else</option></select><span class="err"></span></div>
+        <div class="field"><label for="h-when">When would you like to start?</label><select id="h-when" name="start_when"><option value="">Choose one</option><option value="asap">As soon as possible</option><option value="2weeks">Within 2 weeks</option><option value="month">Within a month</option><option value="pricing">Just pricing for now</option><option value="date">Pick a date</option></select><span class="err"></span></div>
+        <div class="field full" data-date hidden><label for="h-date">Start date</label><input id="h-date" name="start_date" type="date"><span class="err"></span></div>
+        <div class="field full"><label for="h-msg">Anything we should know? <i>(optional)</i></label><textarea id="h-msg" name="message" rows="3"></textarea><span class="err"></span></div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <label class="consent full"><input type="checkbox" name="marketing"><span data-consent-text>Yes, email me cleaning tips and SVT Clean offers. One click to stop.</span></label>
+        <p class="form-status" role="status" aria-live="polite"></p>
+        <button class="btn btn-accent" type="submit"><span data-claim="pending">Book my free walkthrough</span></button>
+        <p class="small full" style="margin:0">We use your details to set up the walkthrough and nothing else. <a href="privacy.html">Privacy</a></p>
+      </form>
+      <div class="done" data-done hidden><h3 class="h3">Thanks, <span data-name>there</span>. <em>Got it.</em></h3><p class="lede"><span data-claim="pending">We'll call you within one business day</span> to set a time for the walkthrough. Your estimate came with your request, so we start from your numbers.</p></div>
+    </div></div></div>
+  </section>
+
+  <section class="end" id="contact" aria-label="Get started">
+    <div class="wrap">
+      <span class="eyebrow">SVT Clean</span>
+      <h2>Clean by <em>morning.</em></h2>
+      <p class="lede">Offices, kitchens, new builds and clinics across Toronto and the GTA.</p>
+      <div class="ctas"><a class="btn btn-accent" href="pricing.html">Price my space</a><a class="btn btn-line" href="quote.html">Book a walkthrough</a></div>
+    </div>
+  </section>
+</main>
+
+<!-- @footer (tools/build_pages.py) -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="grid">
+      <div><img class="logo lg-dark" src="brand/svt-clean-header-on-dark.svg" alt="SVT Clean" width="206" height="36" loading="lazy"><img class="logo lg-light" src="brand/svt-clean-header.svg" alt="" aria-hidden="true" width="206" height="36" loading="lazy"><p style="margin:0;max-width:34ch">Commercial cleaning for offices, kitchens, new builds and clinics in Toronto and the GTA.</p></div>
+      <div><h3>Services</h3><ul><li><a href="office-cleaning.html">Office cleaning</a></li><li><a href="post-construction-cleaning.html">Post-construction</a></li><li><a href="commercial-kitchen-cleaning.html">Commercial kitchens</a></li><li><a href="clinic-cleaning.html">Clinics and medical offices</a></li></ul></div>
+      <div><h3>Company</h3><ul><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li><li><a href="quote.html">Book a walkthrough</a></li><li><a href="privacy.html">Privacy</a></li></ul></div>
+      <div><h3>Areas</h3><ul data-claim="pending"><li>Toronto</li><li>Mississauga</li><li>Brampton</li><li>Vaughan</li><li>Markham</li></ul></div>
+    </div>
+    <div class="base"><span>&copy; 2026 SVT Clean</span><span class="review-pill"></span><a class="powered" href="https://damoradigital.com" target="_blank" rel="noopener"><span>Powered by</span><i role="img" aria-label="Damora Digital"></i></a></div>
+  </div>
+</footer>
+<div class="cookie" role="region" aria-label="Cookies" hidden>We use cookies. <a href="privacy.html">Privacy</a><button type="button">OK</button></div>
+<!-- /footer -->
+
+<script src="film-engine.js"></script>
+<script src="site-config.js"></script>
+<script src="site.js"></script>
+<script src="svt.js"></script>
+</body>
+</html>
